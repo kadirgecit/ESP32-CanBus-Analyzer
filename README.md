@@ -97,6 +97,7 @@ Download from [arduino.cc](https://www.arduino.cc/en/software)
 
 ### 4. Upload the Code
 1. Open `esp32_can_analyzer.ino` in Arduino IDE
+1a. Change values according to your preference. For example to store up to 50 unique CAN IDs change this line: #define MAX_MESSAGES 50
 2. Select your ESP32 board (**Tools → Board → ESP32 Dev Module**)
 3. Select the correct COM port
 4. Click **Upload** (→ button)
